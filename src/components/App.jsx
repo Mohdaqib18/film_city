@@ -22,7 +22,7 @@ const App = () => {
           <Route path="/actors/:id">
             <Actors />
           </Route>
-          <Route exact path="/">
+          <Route exact path={["/" , "/approved"]}>
             <Movies />
           </Route>
           <Route path="/profile/:id">

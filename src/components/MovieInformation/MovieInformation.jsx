@@ -1,12 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Modal, Typography ,Button , ButtonGroup , Grid , Box , CircularProgress, useMediaQuery, Rating, collapseClasses} from "@mui/material";
 import {Movie as MovieIcon, Theaters, Language, PlusOne, Favorite, FavoriteBorderOutlined , Remove , ArrowBack} from "@mui/icons-material";
 import {Link, useParams} from "react-router-dom";
 import {useDispatch, useSelector} from 'react-redux';
 import axios from 'axios';
-import { useGetMovieQuery} from '../../services/TMDB';
+import { useGetMovieQuery, useGetRecommendationsQuery} from '../../services/TMDB';
 import useStyles from "./styles";
-import genresIcons from '../../assets/genres'
+import genresIcons from '../../assets/genres';
+import {MovieList} from '..'
+
 
 
 import {selectGenreOrCategory} from '../../features/currentGenreOrCategory';
@@ -28,7 +30,8 @@ const MovieInformation = () => {
   const { id } = useParams();
 
   const {data, isFetching, error} = useGetMovieQuery(id);
-
+  const {data: recommendations, isFetching:isRecommendationsFetching } = useGetRecommendationsQuery({list:`/recommendations`, movie_id:id});
+  const [open, setOpen] = useState(false)
   const classes = useStyles();
 
 const dispatch = useDispatch();
@@ -60,7 +63,7 @@ const addToWatchlist = () => {
 
   return (
     <Grid container className={classes.containerSpaceAround}>
-      <Grid item sm={12} lg={4} >
+      <Grid item sm={12} lg={4} style={{display: "flex", marginBottom: '30px'}}>
         <img className={classes.poster}
           src={`https://image.tmdb.org/t/p/w500/${data?.poster_path}`}
           alt={data?.title}
@@ -77,7 +80,7 @@ const addToWatchlist = () => {
           </Typography>
         </Box>
         <Typography variant="h6" align="center" gutterBottom  >
-          {data?.runtime} min  {data?.spoken_languages.length > 0 ? `/ ${data?.spoken_languages[0].name}` : "" }
+          {data?.runtime} min |  Language: {data?.spoken_languages[0].name}
 
         </Typography>
 
@@ -125,7 +128,7 @@ const addToWatchlist = () => {
             <Button target="_blank" rel="noopener noreferrer" href={`https://www.imdb.com/title/${data?.imdb_id}`} endIcon={<MovieIcon />} >
               IMDB
             </Button>
-            <Button onClick={()=>{}} href="#" endIcon={<Theaters/>}>Trailer</Button>
+            <Button onClick={()=>setOpen(true)} href="#" endIcon={<Theaters/>}>Trailer</Button>
 
             </ButtonGroup>
           </Grid>
@@ -148,7 +151,32 @@ const addToWatchlist = () => {
         </Grid>
 
       </Grid>
+      <Box marginTop="5rem" width="100%">
+      <Typography variant="h3" gutterBottom align="center">
+        You might also like
+      </Typography>
+       {recommendations 
+       ?  <MovieList movies={recommendations} numberOfMovies={12} />
+       : <Box>Sorry, nothing was found</Box>}
 
+      </Box>
+      <Modal 
+      closeAfterTransition
+      className={classes.modal}
+      open={open}
+      onClose={() => setOpen(false)}
+       >
+      {data?.videos?.results?.length > 0 && (
+        <iframe
+          autoPlay
+          className={classes.video}
+          frameBorder="0"
+          title="Trailer"
+          src={`https://www.youtube.com/embed/${data.videos.results[0].key}`}
+          allow="autoplay"
+        />
+      )}
+      </Modal>
     </Grid>
   );
 };
