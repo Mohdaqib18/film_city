@@ -25,7 +25,7 @@ const Search = () => {
   if(location.pathname !== '/') return null;
   
     return(
-        <div className={ClassNames.searchContainer}>
+        <div className={classes.searchContainer}>
           <TextField
             onKeyPress ={handleKeyPress}
             value={query}

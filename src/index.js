@@ -7,13 +7,19 @@ import App from './components/App';
 import {Provider}  from 'react-redux'
 import store from './app/store'
 import "./index.css"
-const theme = createTheme({});
+import ToggleColorModeProvider from "./utils/ToggleColorMode";
+
+
+
+
+
 ReactDOM.render(
- <Provider store={store}> <ThemeProvider theme={theme}>
+ <Provider store={store}> 
+ <ToggleColorModeProvider >
     <Router>
       <App />
     </Router>
-  </ThemeProvider>
+  </ToggleColorModeProvider>
   </Provider>,
   document.getElementById('root'),
 );

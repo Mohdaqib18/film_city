@@ -1,4 +1,4 @@
-import React from "react";
+import Reac, {useEffect} from "react";
 import {Divider, List, ListItem , ListItemText, ListSubheader, ListItemIcon, Box, CircularProgress} from "@mui/material";
 import {Link} from "react-router-dom";
 import {useTheme} from '@mui/styles';
@@ -8,6 +8,7 @@ import  genresIcon from '../../assets/genres'
 import {selectGenreOrCategory} from '../../features/currentGenreOrCategory';
 
 import {useSelector, useDispatch} from 'react-redux';
+
 
 
 
@@ -24,10 +25,15 @@ const categories =[{label: 'Popular', value: 'popular'},
 
 
 const Sidebar = ({setMobileOpen}) => {
+const {genreIdOrCategoryName}= useSelector((state) => state.currentGenreOrCategory)
  const theme = useTheme();
  const classes = useStyles();
  const {data, isFetching, error} = useGetGenresQuery();
  const dispatch = useDispatch();
+
+ useEffect(() => {
+  setMobileOpen(false);
+ },[ genreIdOrCategoryName])
 
  console.log(data);
     return (
@@ -51,7 +57,7 @@ const Sidebar = ({setMobileOpen}) => {
                     <Link key={value} className={classes.links} to='/'>
                         <ListItem onClick={() =>dispatch(selectGenreOrCategory(value))} button>
                         <ListItemIcon>
-                                <img src={genresIcon[label.toLowerCase()]} className={classes.genreImages} height={30}/>
+                                <img src={genresIcon[label.toLowerCase()]} className={classes.genreImage} height={30}/>
                             </ListItemIcon>
                             <ListItemText primary={label}/>
                         </ListItem>
@@ -72,7 +78,7 @@ const Sidebar = ({setMobileOpen}) => {
                     <Link key={id} className={classes.links} to='/'>
                         <ListItem onClick={() =>dispatch(selectGenreOrCategory(id))} button>
                             <ListItemIcon>
-                                <img src={genresIcon[name.toLowerCase()]} className={classes.genreImages} height={30}/>
+                                <img src={genresIcon[name.toLowerCase()]} className={classes.genreImage} height={30}/>
                             </ListItemIcon>
                             <ListItemText primary={name}/>
                         </ListItem>
