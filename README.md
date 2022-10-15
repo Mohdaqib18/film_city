@@ -20,8 +20,14 @@ Filmcity is an AI Powered Netflix Clone Movie Application with IMDB Features. Fi
 # Add or remove movies to your favorites and watchlist...
 ![FilmCity2](https://user-images.githubusercontent.com/37264147/196006952-904b6a1b-86d4-449b-9f91-1435779b5e0c.gif)
 
+# Talk to voice assistant AI, say "Make it dark" and "Make it light" to change mode, say "search for (any movie name)" and much more..
+  ![FilmCity4](https://user-images.githubusercontent.com/37264147/196008888-15effea8-f05e-4732-8522-f0e8eea3521d.gif)
 
+# Runs of mobile seamlessly
+![FilmCity5](https://user-images.githubusercontent.com/37264147/196008959-a053760f-ab8e-4a59-980c-8b865e7662a5.gif)
 
+  
+  
 # HOME page in Dark Mode
 ![Filmcity_Home_Page_Dark](https://user-images.githubusercontent.com/37264147/195973215-3c1c6373-8097-4f70-8d19-3e3e8024c8d2.jpg)
 
