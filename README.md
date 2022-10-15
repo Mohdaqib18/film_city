@@ -1,3 +1,5 @@
+![Filmcity_Home_Page](https://user-images.githubusercontent.com/37264147/195971512-d74b8016-c4a2-4144-b810-489f121ceec7.jpg)
+![Filmcity_Home_Page_Dark](https://user-images.githubusercontent.com/37264147/195971628-9f5776d7-1c2a-444b-9a07-895d972cb0fe.jpg)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
