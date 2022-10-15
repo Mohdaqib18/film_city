@@ -2,7 +2,24 @@
 Filmcity is an AI Powered Netflix Clone Movie Application with IMDB Features. Filmcity unleashes powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
 
 # State change from light to Dark mode
-![Picture this](https://user-images.githubusercontent.com/37264147/196005425-c4c618d9-28f5-4a9c-b9c4-474947c895c7.gif)
+![FilmCity](https://user-images.githubusercontent.com/37264147/196005850-142e65cb-77de-4b52-b6c9-27c9a4a39178.gif)
+
+
+# My Profile page show my favorite movies and watchlist
+![FilmCity2](https://user-images.githubusercontent.com/37264147/196006160-7ae50c36-3efe-443b-accc-da0773db0696.gif)
+
+# Click on categories or genre to fetch related movies 
+![FilmCity2](https://user-images.githubusercontent.com/37264147/196006377-3d98a0e6-8942-42a8-a5d0-beab29048b4c.gif)
+
+# Search for any movie, check out actors profile...
+![FilmCity2](https://user-images.githubusercontent.com/37264147/196006577-8c8339f5-63eb-46af-b555-518c842c8e42.gif)
+
+# Check out movie trailers on youtube, imdb and other through other links...
+![FilmCity2](https://user-images.githubusercontent.com/37264147/196006795-77b1dee5-652e-43a7-b382-50b228b5a3de.gif)
+
+# Add or remove movies to your favorites and watchlist...
+![FilmCity2](https://user-images.githubusercontent.com/37264147/196006952-904b6a1b-86d4-449b-9f91-1435779b5e0c.gif)
+
 
 
 # HOME page in Dark Mode
