@@ -1,6 +1,9 @@
 # filmcity_netfix_clone
 Filmcity is an AI Powered Netflix Clone Movie Application with IMDB Features. Filmcity unleashes powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
 
+# State change from light to Dark mode
+![Picture this](https://user-images.githubusercontent.com/37264147/196005425-c4c618d9-28f5-4a9c-b9c4-474947c895c7.gif)
+
 
 # HOME page in Dark Mode
 ![Filmcity_Home_Page_Dark](https://user-images.githubusercontent.com/37264147/195973215-3c1c6373-8097-4f70-8d19-3e3e8024c8d2.jpg)
