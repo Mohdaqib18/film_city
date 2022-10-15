@@ -164,7 +164,7 @@ const addToWatchlist = async  () => {
             </ButtonGroup>
           </Grid>
           <Grid item xs={12} sm={6} className={classes.buttonContainer}>
-            <ButtonGroup size="medium" variant="outlined">
+            <ButtonGroup size="small" variant="outlined">
            <Button onClick={addToFavorites} endIcon={isMovieFavorited ?<FavoriteBorderOutlined/>: <Favorite />  }>
             {isMovieFavorited ? "Unfavorite" : "Favorite"}
            </Button>
