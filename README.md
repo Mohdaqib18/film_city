@@ -1,3 +1,7 @@
+ # Checkout my AI Powered netflix_clone app named filmcity through the link given below:
+ https://aqib-frontend-filmcity.netlify.app/
+
+
 # filmcity_netfix_clone
 Filmcity is an AI Powered Netflix Clone Movie Application with IMDB Features. Filmcity unleashes powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
 
