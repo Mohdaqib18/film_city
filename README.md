@@ -1,3 +1,5 @@
+![Filmcity_MovieInfo_Page_Light](https://user-images.githubusercontent.com/37264147/195972217-6ec6af6f-cfb1-41db-b82f-f84c581a6c40.jpg)
+![Filmcity_MovieInfo_Page_Light](https://user-images.githubusercontent.com/37264147/195972225-2b6dda2c-16c3-4921-a485-850929994e70.jpg)
 ![Filmcity_Home_Page](https://user-images.githubusercontent.com/37264147/195971512-d74b8016-c4a2-4144-b810-489f121ceec7.jpg)
 ![Filmcity_Home_Page_Dark](https://user-images.githubusercontent.com/37264147/195971628-9f5776d7-1c2a-444b-9a07-895d972cb0fe.jpg)
 # Getting Started with Create React App
