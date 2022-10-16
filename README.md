@@ -1,4 +1,4 @@
-# Instruction
+# Instructions
 1. git clone https://github.com/Mohdaqib18/filmcity_netfix_clone.git
 2. Add .env file in the root folder containing ESLINT_NO_DEV_ERRORS=true  Key=<API KEY>
 3. npm install
