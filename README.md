@@ -1,4 +1,11 @@
- # Checkout my AI Powered netflix_clone app named filmcity through the link given below:
+# Instruction
+1. git clone https://github.com/Mohdaqib18/filmcity_netfix_clone.git
+2. Add .env file in the root folder containing ESLINT_NO_DEV_ERRORS=true  Key=<API KEY>
+3. npm install
+4. npm start
+
+
+# Checkout my AI Powered netflix_clone app named filmcity through the link given below:
  https://aqib-frontend-filmcity.netlify.app/
 
 
