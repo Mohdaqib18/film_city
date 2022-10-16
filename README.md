@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+ # Checkout my AI Powered netflix_clone app named filmcity through the link given below:
+ https://aqib-frontend-filmcity.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# filmcity_netfix_clone
+Filmcity is an AI Powered Netflix Clone Movie Application with IMDB Features. Filmcity unleashes powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
 
-In the project directory, you can run:
+# State change from light to Dark mode
+![FilmCity](https://user-images.githubusercontent.com/37264147/196005850-142e65cb-77de-4b52-b6c9-27c9a4a39178.gif)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# My Profile page show my favorite movies and watchlist
+![FilmCity2](https://user-images.githubusercontent.com/37264147/196006160-7ae50c36-3efe-443b-accc-da0773db0696.gif)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Click on categories or genre to fetch related movies 
+![FilmCity2](https://user-images.githubusercontent.com/37264147/196006377-3d98a0e6-8942-42a8-a5d0-beab29048b4c.gif)
 
-### `npm test`
+# Search for any movie, check out actors profile...
+![FilmCity2](https://user-images.githubusercontent.com/37264147/196006577-8c8339f5-63eb-46af-b555-518c842c8e42.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Check out movie trailers on youtube, imdb and other through other links...
+![FilmCity2](https://user-images.githubusercontent.com/37264147/196006795-77b1dee5-652e-43a7-b382-50b228b5a3de.gif)
 
-### `npm run build`
+# Add or remove movies to your favorites and watchlist...
+![FilmCity2](https://user-images.githubusercontent.com/37264147/196006952-904b6a1b-86d4-449b-9f91-1435779b5e0c.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Talk to voice assistant AI, say "Make it dark" and "Make it light" to change mode, say "search for (any movie name)" and much more..
+  ![FilmCity4](https://user-images.githubusercontent.com/37264147/196008888-15effea8-f05e-4732-8522-f0e8eea3521d.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Runs of mobile seamlessly
+![FilmCity5](https://user-images.githubusercontent.com/37264147/196008959-a053760f-ab8e-4a59-980c-8b865e7662a5.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  
+  
+# HOME page in Dark Mode
+![Filmcity_Home_Page_Dark](https://user-images.githubusercontent.com/37264147/195973215-3c1c6373-8097-4f70-8d19-3e3e8024c8d2.jpg)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# HOME page in Light Mode
+![Filmcity_Home_Page](https://user-images.githubusercontent.com/37264147/195973396-e92f72f3-b846-45f0-a2a6-dc93f05ce2f2.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Movie-info page in Dark Mode
+![Filmcity_MovieInfo_Page_Dark](https://user-images.githubusercontent.com/37264147/195973430-cd7be240-65a5-4cc6-a615-fab52da45dfd.jpg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Movie-info page in Light Mode
+![Filmcity_MovieInfo_Page_Light](https://user-images.githubusercontent.com/37264147/195973436-3056393f-80fe-47c0-a2e4-171de4e89bd9.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Actor-info page in Light Mode
+![Actor info page in Light Mode](https://user-images.githubusercontent.com/37264147/195973595-2929c21f-e425-43f5-8b1e-a5e5e1a79345.jpg)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Actor-info page in Dark Mode
+![Actor info page in Dark Mode](https://user-images.githubusercontent.com/37264147/195973609-c2b6b5e4-69a9-4a09-94e8-3b2d5acd8eb5.jpg)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Mobile  Sidebar View Light Mode
+![Mobile  Sidebar View Light Mode](https://user-images.githubusercontent.com/37264147/195974909-b60160cf-062c-4821-8e20-7f12ae5be1f6.jpg)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Mobile Home Page View Dark Mode
+![Mobile Home Page View Dark Mode](https://user-images.githubusercontent.com/37264147/195974932-915082b8-920c-4490-a27c-5a9a0e258ad9.jpg)
 
-### Advanced Configuration
+# Mobile Home Page View Light Mode
+![Mobile Home Page View Light Mode](https://user-images.githubusercontent.com/37264147/195974957-f034633e-c469-495a-b536-f53ec779a736.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Mobile Mobile Movie-info Page View Dark Mode
+![Mobile Mobile Movie-info Page View Dark Mode](https://user-images.githubusercontent.com/37264147/195974976-dd517e36-3439-42ab-94f5-2859ef01c9ea.jpg)
 
-### Deployment
+# Mobile Mobile Movie-info Page 2 View Dark Mode
+![Mobile Mobile Movie-info Page 2 View Dark Mode](https://user-images.githubusercontent.com/37264147/195974988-759c80b8-ff71-4503-9fce-9987d9ae2f39.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
