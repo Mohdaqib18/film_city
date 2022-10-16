@@ -6,7 +6,7 @@
 
 
 # Checkout my AI Powered netflix_clone app named filmcity through the link given below:
- https://aqib-frontend-filmcity.netlify.app/
+ aqib-frontend-dev-filmcity.netlify.app
 
 
 # filmcity_netfix_clone
